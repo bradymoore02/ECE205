@@ -1,3 +1,4 @@
+
 \documentclass{report}
 \title{Lab 1: Battery Evaluation}
 \date{September 9th, 2022}
@@ -12,6 +13,20 @@ In this lab, we will use a battery, which is a device which converts chemical en
 Even though we typically think of batteries as ideal voltage sources, we will characterize ways in which the battery differs from the ideal voltage source.
 
 \section{Procedure}
+The first step in this lab is to measure the open circuit voltage ($V_{OC}$) for each of the three batteries tested in this experiment.
+We did this by connecting a multimeter in parallel with each battery and recording the displayed voltage once it stabilized. Then, we modified
+the circuit by adding a 100 $\Ohm$ resistor connected in series with the battery. For each battery, we connected the multimeter in parallel
+across the resistor and recorded the voltage once it stabilized. \par
+The next step in this lab was to calculate the current flowing in each circuit (which changed according to the battery tested). Using Equation \ref{ohms_law}
+(Ohm's Law), we can calculate the current using our measured voltage across the resistor ($V_r$) and the resistance of the resistor ($R$).
+Then, we can use the calculated current values for each battery ($I_1$, $I_2$, $I_3$) to calculate the internal resistance of the battery using
+the previously measured open circuit voltage ($V_{OC}$). We do this again, using Ohm's Law, rewritten as $V_{OC} = IR_{int}$, where $R_{int}$
+is the internal resistance of the resistor. We repeat this calculation with the values shown in Table \ref{tab:results}.
+
+    \begin{equation}
+        \label{ohms_law}
+        V = IR
+    \end{equation}
 \section{Execution}
     \begin{tabular}{|c c c c c|}
         \hline
