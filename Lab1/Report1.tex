@@ -1,4 +1,6 @@
 \documentclass{report}
+\usepackage{graphicx}
+\usepackage{placeins}
 \title{Lab 1: Battery Evaluation}
 \date{September 9th, 2022}
 \author{Brady Moore \\
@@ -28,6 +30,7 @@ Even though we typically think of batteries as ideal voltage sources, we will ch
 \begin{table}
     \begin{center}
     \caption{Experimental values of $V_{oc}$ and $V_{ab}$ for all three batteries. The current and $R_{int}$ columns are calculated using Eq.~\ref{}}
+    \label{tab:results}
     \begin{tabular}{|c c c c c|}
         \hline
         Battery & $V_{oc} [V]$ & $V_{ab} [V]$ & $ I[A]$ & $R_{int} [\Omega]$\\
@@ -41,6 +44,18 @@ Even though we typically think of batteries as ideal voltage sources, we will ch
     \end{center}
     \end{table}
 \section{Analysis}
-
+The voltage meausered across the battery is the open load voltage, $V_{oc}$,because there is no load or current flowing.
+$V_{ab}$ is the voltage drop across the 100 $\Omega$ resistor.
+$V_{ab}$ can be used to find the current flowing through the circuit according to Ohm's Law Eq.~\ref{ohms_law}.
+The current in addition to $V_{oc}$ can be used to calculate the internal resistance according to the following equation:
+\begin{equation}
+    V_{oc} = I(R+R_{int})
+\end{equation}
+where $R$ is the resistance of the added resistor.
+For this lab $R = 100 \Omega$.
+\begin{equation}
+    R_{int} = \frac{V_{oc}}{I}-R
+\end{equation}
+The calculated $R_{int}$ values are tabulated in Table~\ref{tab:results}.
 \section{Conclusion}
 \end{document}
