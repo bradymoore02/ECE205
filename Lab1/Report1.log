@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  8 SEP 2022 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  9 SEP 2022 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -56,29 +56,61 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
- [1] (./Report1.aux) ) 
+(Font)              <5> on input line 19.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.28     \caption{THis is a caption}
+                                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.28     \caption{THis is a caption}
+                                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.28     \caption{THis is a caption}
+                                    
+? 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.28     \caption{THis is a caption}
+                                    
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.28     \caption{THis is a caption}
+                                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.28     \caption{THis is a caption}
+                                    
+? exit
+ 
 Here is how much of TeX's memory you used:
- 423 strings out of 478994
- 7265 string characters out of 5858184
+ 421 strings out of 478994
+ 7241 string characters out of 5858184
  292231 words of memory out of 5000000
  17981 multiletter control sequences out of 15000+600000
  407070 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,50p,169b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb>
-Output written on Report1.pdf (2 pages, 68176 bytes).
+ 44i,9n,50p,169b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Report1.pdf (1 page, 22859 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
