@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1662739667 "Report1.tex" "Report1.pdf" "Report1" 1662739668
+["pdflatex"] 1662741157 "Report1.tex" "Report1.pdf" "Report1" 1662741157
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -20,6 +20,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/report.cls" 1601675358 23204 74c91ecbcc47161218f25d9d0651c0f7 ""
@@ -34,14 +35,16 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1616101731 27164 3d5f7887a89df4eb2f6e86ba26ef3254 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty" 1137110565 4087 636308456f60d2b31cbf97867db5708d ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty" 1571259403 48596 2b6a95da931c07a430b1a61904aaa42d ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1624636461 2724735 4c486b36f6e39ae6a9c06777f7356b39 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Report1.aux" 1662739667 1313 877a62cdbc3974333435a985fa1feced "pdflatex"
-  "Report1.tex" 1662739667 2388 af8d76932aaba529c8cb1462bc9426cb ""
-  "SchematicA.png" 1662738791 75114 9fc5f48a7f14c5bb3b8edc52cf6da40b ""
-  "SchematicB.png" 1662738750 82944 1758fbfc92f30186afdf16c60a4f5077 ""
+  "Report1.aux" 1662741157 1353 9efc21ae5e200dd075f2c658db99a7cd "pdflatex"
+  "Report1.tex" 1662741156 4845 97e9853fceb0a22951d5207b315fce14 ""
+  "SchematicA.png" 1662739952 75114 9fc5f48a7f14c5bb3b8edc52cf6da40b ""
+  "SchematicB.png" 1662739952 82944 1758fbfc92f30186afdf16c60a4f5077 ""
   (generated)
   "Report1.pdf"
   "Report1.log"
